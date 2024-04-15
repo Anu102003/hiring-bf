@@ -1,0 +1,52 @@
+.add-button button{
+    cursor: pointer;
+    color:rgb(232, 239, 233);
+    border: none;
+    font-size: 16px;
+    font-weight:bolder;
+    width:6rem;
+    border-radius: 6px;
+    padding: 13px;
+    background-color: #008CBA;
+}
+  .add-button button:hover {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #03b7f3;
+  }
+  .add-icon{
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  .search-bar input {
+    padding: 12px 20px;
+    border: none;
+    background: #efeeeee3;
+    outline: none;
+    margin-right: 20px;
+    border-radius: 5px;
+    width: 15rem;
+    height: 2rem;
+    font-weight: 500;
+    font-size: 18px;
+}
+.search-bar input:hover {
+    background-color: #fffffff4;
+    border:1px solid gray;
+}
+
+  .search-icon{
+    margin-right: 20px;
+    font-size: 21px;
+    color: #2A265F;
+  }
+  .search-bar{
+    margin-right: 30%;
+  }
+
+  .menu-search{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin: 30px 0px;
+}

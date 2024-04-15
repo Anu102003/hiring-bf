@@ -1,0 +1,49 @@
+.addons-form {
+    display: flex;
+    flex-direction: column;
+    line-height: 5rem;
+    width: 40vw;
+    padding: 4rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+.addons-form h1 {
+    padding-bottom: 2rem;
+    text-align: center;
+    color: #2A265F;
+}
+.addons-input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.addons-form label {
+    font-size: 1.3rem;
+}
+.Cateory-Input {
+    width: 27.5vw;
+    outline: none;
+    padding: 0.8rem;
+    border: none;
+    border-bottom: 1px solid #C2C7D0;
+    border-radius: 1px;
+    background-color: white;
+    font-size: 15px;
+}
+.addons-input-container input {
+    padding-bottom: 0.8rem;
+    outline: none;
+    border: none;
+    width: 27.5vw;
+    border-bottom: 1px solid #C2C7D0;
+}
+.addons-input-container input:hover {
+    border-bottom-color: #2A265F;
+}
+.addons-input-container input::placeholder {
+    letter-spacing: 1.4px;
+}
+.addons-input-container input::-webkit-inner-spin-button,
+.addons-input-container input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

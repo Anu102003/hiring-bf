@@ -1,0 +1,64 @@
+.form-card h1 {
+    padding-bottom: 2rem;
+    text-align: center;
+    color: #2A265F;
+}
+
+.form-container {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.form-card {
+    padding: 2.5rem;
+    box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    height: max-content;
+}
+
+.form-card label {
+    width: 13rem;
+    font-size: 1.3rem;
+    font-weight: 1rem;
+    color: black;
+}
+.form-card input {
+    margin-left: 20px;
+    outline: none;
+    width: 400px;
+    padding: 0.5rem;
+    border: 1px solid #C2C7D0;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.form-card textarea {    
+    border-radius: 5px;
+    outline: none;
+    width: 40rem;
+    padding: 0.8rem;
+    border: 1px solid #C2C7D0;
+    overflow: auto;
+    font-size: 14px;
+}
+.input-container{
+    padding: 20px 0px;
+    display: flex;
+}
+
+.form-card textarea:hover , .inputs:hover {
+    border: 1px solid #2A265F;
+}
+
+.textarea-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+

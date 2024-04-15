@@ -1,0 +1,144 @@
+.AddEmployee{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+   }
+   .AddEmployeeForm{
+    line-height:3rem;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+   }
+   .row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+   }
+   .empid,.empname{
+    display: flex;
+    flex-direction: column;
+   }
+   .row2{
+    display: flex;
+    flex-direction: column;
+   }
+   
+   .AddEmployee label{
+    width:20rem;
+    color: #383b42 ;
+    font-weight: bold;
+    font-size: 1.2rem; 
+   }
+   
+   .Employeeid{ 
+    width: 19vw;
+    outline: none; 
+    padding: 0.8rem; 
+    border: none;
+    border-bottom: 1px solid #C2C7D0;
+    border-radius: 1px solid;
+   }
+   .Employeeid::placeholder{
+    letter-spacing: 1.4px;
+   }
+   .Employeeid:hover{
+    border-color: skyblue;
+   }
+   .Employeename{
+    width: 20vw;
+    padding: 0.8rem; 
+    outline: none; 
+    border: none; 
+    border-bottom: 1px solid #C2C7D0;
+    border-radius: 1px solid;
+   }
+   .Employeename:hover{
+    border-color: skyblue;
+   }
+   .Employeename::placeholder{
+    letter-spacing: 1.4px;
+   }
+   .Employee-email{
+    width: 40vw;
+    padding-bottom: 0.8rem;
+    margin-bottom: 2.2rem;
+    outline: none; 
+    border: none;
+    border-bottom: 1px solid #C2C7D0;
+    border-radius: 1px solid;
+   
+   }
+   .Employee-email{
+    letter-spacing: 1.4px;
+   }
+   .Employee-email:hover{
+    border-color: skyblue;
+   }
+   .Field{
+    width: 40vw;
+    padding-bottom: 0.8rem;
+    margin-bottom: 1.5rem;
+    outline: none; 
+    border: none;
+    border-bottom: 1px solid #C2C7D0;
+    border-radius: 1px solid;
+   }
+   .Field::placeholder{
+    letter-spacing: 1.4px;
+   }
+   .Field:hover{
+    border-color: skyblue;
+   }
+   
+   .Addemployeebutton {
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    align-self:center;
+    background-color:#ef4339; 
+    box-shadow: 0 15px 30px 0 rgba(239, 67, 57, 0.2);
+    color:rgb(232, 239, 233);
+    border: none;
+    text-align:center;
+    font-weight:1rem;
+    font-size:0.8rem;
+    width: 9rem;
+    border-radius: 2rem;
+    padding: 0.9rem;
+   }
+   .Addemployeebutton:hover{
+    cursor: pointer;
+   }
+   
+   .Employeeid::-webkit-inner-spin-button,
+   .Employeeid::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+   }
+   .view-details-button button{
+    cursor: pointer;
+    color:rgb(232, 239, 233);
+    border: none;
+    font-size: 16px;
+    font-weight:bolder;
+    width:10rem;
+    border-radius: 6px;
+    padding: 13px;
+    background-color: #36A9AE;
+    margin:1px 30px;
+}
+.view-details-button button:hover {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #36A9AE;
+    width:10rem;
+  }
+  .view-details-button{
+    height: 46px;
+  }

@@ -1,0 +1,39 @@
+.admin-home-container{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+   }
+   .admin-card{
+    width:22%;
+    height: 40%;
+    padding: 10px;
+    box-shadow:0 0 3rem rgba(0, 0, 0, 0.1);
+    margin: 2rem; 
+   }
+   .admin-card h2{
+    text-align: center;
+   }
+   .card-img{
+    height:80%;
+    margin-bottom:1rem;
+    background-size: cover; 
+    background-position: center;
+   }
+   .card1{
+    background-image: url("https://img.freepik.com/free-vector/working-characters-flat-design-web-banner_1308-127467.jpg?size=626&ext=jpg&ga=GA1.1.1244923433.1696917933&semt=ais");
+   }
+   
+   .card2{
+    background-image: url("https://img.freepik.com/free-vector/online-job-interview_23-2148644500.jpg?size=626&ext=jpg&ga=GA1.1.1244923433.1696917933&semt=ais");
+   }
+   .card3{
+    background-image: url("https://img.freepik.com/free-vector/faqs-concept-illustration_114360-5245.jpg?size=626&ext=jpg&ga=GA1.2.1244923433.1696917933&semt=sph");
+   }
+   
+   .admin-card:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+   }

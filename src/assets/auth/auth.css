@@ -1,0 +1,71 @@
+.auth{
+    display: flex;
+    height: max-content;
+    margin-top: 7rem;
+   }
+   
+   .auth-form{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   }
+   .auth-form form{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    padding: 3rem 5rem;
+    width: 35%;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+   }
+   .auth-form h1{
+    text-align: center;
+    padding-bottom: 2rem;
+   }
+   label{
+    padding-bottom: 1rem;
+    font-size:large;
+    font-weight:bold;
+   }
+   
+   .email,.Password,.cpassword,.Name{
+    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+    outline: none;
+    font-size: larger;
+   }
+   .auth input:hover{
+    background-color: rgba(245, 246, 248, 0.787);
+    border: 1px solid rgb(11, 11, 11);
+   }
+   .authbutton{
+    cursor: pointer;
+    background-color:dodgerblue; 
+    color:rgb(232, 239, 233);
+    border: none;
+    font-size: 17px;
+    font-weight:bolder;
+    width:6rem;
+    margin: 1.5rem 0rem 2rem;
+    border-radius: 6px;
+    padding: 1rem;
+    align-self: center;
+   }
+   .authbutton:hover{
+    background-color:rgb(121, 125, 129); 
+   }
+   
+   .auth h3{
+    color: black;
+    text-align: center;
+   } 
+   
+   .auth h3 a{
+    text-decoration: none;
+    font-size:21px;
+   }
+   .auth h3 a:hover{
+    text-decoration: none;
+    font-size:23px;
+   }

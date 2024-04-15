@@ -1,0 +1,161 @@
+.score-container {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.score-card {
+    padding: 2.5rem;
+    box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    height: max-content;
+    width: 70%;
+}
+.score-card h1 {
+    padding-bottom: 2rem;
+    text-align: center;
+    color: #2A265F;
+}
+.score-card h3{
+    color: #2A265F;
+}
+.score-card h2 {
+    padding-bottom: 2rem;
+    color: #2A265F;
+    text-align: left;
+    padding: 10px 1rem 30px 4rem;
+}
+.contest-name{
+    text-indent: 25px;
+}
+.contest-names{
+    font-size: larger;
+}
+.search-container{
+    padding: 10px 3rem;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #bcb8b8;
+    width: 40%px; 
+    margin: 0px 50px 50px;
+}
+.table-user {
+
+    margin:50px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #a79797;
+}
+.row:hover {
+    background-color: #bab6b639;
+}
+.cell {
+    flex: 1;
+    padding: 5px;
+    text-align: center;
+    border-right: 1px solid #a79797;
+    width:20px;
+    font-size: large;
+}
+
+.header {
+    font-weight: bold;
+    color: white;
+    font-size: 17px;
+    background-color: #2A265F;
+    display: flex;
+    flex-direction: row;
+}
+
+.score-details >input{
+     padding: 8px;
+     margin: 0px 20px;
+     font-size: large;
+     outline: none;
+}
+.score-details >input:hover{
+   height: 23px;
+   width: 234px;
+   background-color: rgb(232, 232, 232);
+}
+.score-details >button{
+    padding: 9px;
+    margin: 0px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: large;
+}
+ .score-list{
+    margin-top: 10px;
+} 
+
+.score-chart{
+    width: 100%;
+} 
+.individual-score{
+    display: flex;
+    /* padding: 20px; */
+}
+.score-datas {
+    color: black;
+}
+.mcq-score{
+    display: flex;
+}
+.mcq-score h3{
+    padding-left: 3px;
+    font-size: larger;
+}
+.mcq-datas{
+    text-indent: 20px;
+}
+.mcq-list{
+    padding-left: 2rem;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.apexcharts-legend{
+    display: none;
+}
+.Colmnbarchart{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .apexcharts-menu-icon{
+    display: none;
+   }
+   .score-flex{
+    display: flex;
+    justify-content: space-between;
+   }
+
+.score-flex2 ,.score-flex1{
+    width: 50%;
+}
+.score-flex2{
+    padding-top: 60px;
+}
+
+.name-value {
+    display: flex;
+}
+.value {
+    text-indent: 20px;
+}
+.value-head{
+    width: 120px;
+}

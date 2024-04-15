@@ -1,0 +1,52 @@
+.score-heading {
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.score-card {
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.23) 0px 2px 15px;
+    width: 40%;
+    height: max-content;
+    border-radius: 1rem;
+    padding-bottom: 10px;
+}
+.score-details{
+    display:flex;
+    align-items: baseline;
+    margin-bottom: 40px;
+}
+.score-details p{
+    text-indent: 20px;
+}
+.score-card h2{
+    text-align: center;
+    padding: 30px;
+    font-size: 1.7rem;
+}
+.score-details h3{
+      text-indent: 4rem;
+}
+.circle{
+    margin: 40px;
+}
+
+
+
+
+
+   .apexcharts-legend {
+    margin-top: 4rem;
+    width: 12rem;
+    height: 14rem;
+    display: flex;
+    overflow: auto;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+   }
+   .apexcharts-legend-series {
+    cursor: pointer;
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
+    padding-left: 45px;
+    font-weight:bold;
+   }

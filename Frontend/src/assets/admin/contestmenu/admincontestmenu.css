@@ -1,0 +1,12 @@
+.admin-contest-menu{
+    display: flex;
+    /* padding: 30px 20px;   */
+}
+.sidebars{
+    width: 16%;
+    padding: 0px 20px;
+    /* position: fixed; */
+}
+.sidebarcontent{
+  width:80%
+}

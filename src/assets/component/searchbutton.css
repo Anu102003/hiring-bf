@@ -1,0 +1,25 @@
+.search-bar input {
+    padding: 12px 20px;
+    border: none;
+    background: #efeeeee3;
+    outline: none;
+    margin-right: 20px;
+    border-radius: 5px;
+    width: 15rem;
+    height: 2rem;
+    font-weight: 500;
+    font-size: 18px;
+}
+.search-bar input:hover {
+    background-color: #fffffff4;
+    border:1px solid gray;
+}
+
+  .search-icon{
+    margin-right: 20px;
+    font-size: 21px;
+    color: #2A265F;
+  }
+  .search-bar{
+    margin-right: 30%;
+  }

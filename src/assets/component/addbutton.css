@@ -1,0 +1,20 @@
+.add-button button{
+    cursor: pointer;
+    color:rgb(232, 239, 233);
+    border: none;
+    font-size: 16px;
+    font-weight:bolder;
+    width:6rem;
+    border-radius: 6px;
+    padding: 13px;
+    background-color: #008CBA;
+}
+  .add-button button:hover {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #03b7f3;
+  }
+  .add-icon{
+    margin-right: 10px;
+    font-size: 16px;
+  }

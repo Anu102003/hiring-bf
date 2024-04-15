@@ -1,0 +1,21 @@
+.Nextbutton{
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    align-self:center;
+    background-color:#2A265F; 
+    box-shadow: 0 15px 30px 0 rgba(7, 17, 166, 0.2);
+    color:rgb(232, 239, 233);
+    border: none;
+    text-align:center;
+    font-weight:1rem;
+    font-size:0.8rem;
+    width: 9rem;
+    border-radius: 2rem;
+    padding: 0.9rem;
+   }
+   .Nextbutton:hover{
+    border: 1px solid #2A265F;
+    background-color: white;
+    color:#2A265F;
+   }

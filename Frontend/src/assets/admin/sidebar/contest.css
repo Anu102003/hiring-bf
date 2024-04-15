@@ -1,0 +1,47 @@
+.livecontest-container{
+    margin: 40px 9rem;
+}
+.contest-items{
+    border-radius: 10px;
+    border-left: 1px solid rgb(162, 161, 161);
+    border-right: 9px solid #2A265F;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    background-color: white;
+    height: 100px;
+    width: 70rem;
+    margin: 40px 0px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* contest log css :- */
+.view-button button{
+    cursor: pointer;
+    color:rgb(232, 239, 233);
+    border: none;
+    font-size: 16px;
+    font-weight:bolder;
+    width:8.5rem;
+    border-radius: 6px;
+    padding: 13px;
+    background-color: #023678;
+}
+  .view-button button:hover {
+    width:8.7rem;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #023678;
+  }
+  .view-icon{
+    margin-right: 6px;
+  }
+  .contest-items{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .contest-title{
+    min-width:35%;
+  }
